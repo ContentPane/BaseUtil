@@ -4,6 +4,9 @@ import android.graphics.Rect
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 
+/**
+ * usage:recyclerView.addItemDecoration(SpaceItemDecoration(space: Int))
+ */
 class SpaceItemDecoration(space: Int): RecyclerView.ItemDecoration() {
 
     private val mSpace = space
